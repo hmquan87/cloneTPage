@@ -1,0 +1,60 @@
+/* 
+*{
+  position:relative !important;
+} */
+
+.full{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position:relative !important;
+  top:0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  z-index: 1000; 
+}
+
+.botton{
+  height: 100%;
+  left: 0;
+}
+.scrollable-container {
+    width: 100%;
+    overflow-y: auto; 
+    height: 93.6%;
+  }
+  
+
+
+
+
+  /* Tùy chỉnh kiểu của thanh cuộn */
+  .scrollable-container::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #a7a6a6;
+    border-radius: 1vh;
+    box-shadow: inset 0 0 0 2px #ffffff;
+  }
+
+  .scrollable-container::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(114, 114, 114, 0.829);
+
+  }
+  
+  .scrollable-container::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
