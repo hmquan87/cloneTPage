@@ -1,0 +1,245 @@
+
+.all{
+    margin: 0 3% 0 3%;
+}
+
+
+.page1{
+    background: url(../img/backgroundPage1_2.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    align-items: center;
+    line-height: 3.25rem;
+}
+.page1 .page1-top{
+    text-align: center;
+}
+
+
+.title{
+    font-size: 29px;
+    font-family: Plus Jakarta Sans,sans-serif;
+    padding-top: 100px;
+    color:#001e4d;
+}
+
+
+#tt1{
+    font-weight: 500;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.list{
+    margin-top: -30px;
+    color: #6b6b6b;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans,sans-serif;
+}
+
+.idea{
+    position: relative;
+    display: flex;
+    left: 33.2%;
+    align-items: center;
+    margin-top: -34px;
+    width: 700px;
+}
+
+#check{
+    color:#0070FF;
+    margin-right: 12px;
+}
+
+.top-btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 40%;
+    width: 300px;
+}
+
+.top-btn button{
+    align-items: center;
+    text-align: center;
+    font-family:  Plus Jakarta Sans,sans-serif;
+    border-radius: 3vh;
+    box-shadow: 0 0 6px #9e9e9e;
+    color: white;
+    padding: 10px 20px;
+    font-size: 90%;
+}
+
+.top-btn p{
+    margin-block-start: 0em;
+    margin-block-end: 0;
+}
+
+#btn1{
+    display: inline-flex;
+    background-color: #ff6c44;
+    border: #ff6c44;
+}
+
+#btn2{
+    background-color: #0070FF;
+    border: #0070FF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 10px;
+}
+
+#download{
+    margin-right: 5px;
+}
+
+.itemcard{
+    position: relative;
+    margin-left: 25vh;
+    
+}
+
+.itembd{
+    padding: 30px;
+}
+
+.page1-top #imgp1{
+    width: 75%;
+    height: 75%;
+    
+}
+
+.page1 .bottom .item1{
+    position: relative;
+    display: flex;
+    
+}
+
+.page1 .bottom .item1 img{
+    width: 40%;
+    height: 40%;
+    transition: transform 0.3s ease-in-out;
+}
+.page1 .bottom .item1 img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.page1 .bottom .item1 .text{
+    
+    text-align: start;
+    width: 600px;
+}
+.page1 .bottom .item1 .text h1{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color:#001e4d;
+    width: 500px;
+}
+
+
+.page1 .bottom .item1 .text #text-item{
+    /* align-items: center; */
+    display: flex;
+    margin: 0;
+    line-height: 2rem;
+
+    
+}
+
+.page1 .bottom .item1 .text #text-item p{
+    margin-block-start: 0em;
+    margin-block-end: 0;
+    color: #495460;
+    font-size: 1.225rem;
+    font-weight: 400;
+    width: 600px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#check1{
+    color: #0070FF;
+    margin-right: 28px;
+}
+
+.section2{
+    position: relative;
+    margin-left: 25vh;
+}
+
+.section2 .sec1 {
+    display: flex;
+    padding: 20px;
+}
+
+.section2 .sec1 .s2{
+    margin-left: 60px;
+    box-shadow: 0 0 6px #dadada;
+    border-radius: 3vh;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section2 .sec1 .s2:hover{
+    transform: scale(1.1);
+}
+
+
+.section2 .sec1 .s1 .in-s1{
+    height: 350px;
+    width: 350px;
+}
+
+.section2 .sec1 .s1 .in-s1 h1{
+    font-size: 3rem;
+    line-height: 1;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 1rem;
+}
+
+.section2 .sec1 .s1 .in-s1 p{
+    font-size: 18px;
+    line-height: 1.75rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 400;
+    padding-right: 7rem;
+    padding-bottom: 1.75rem;
+    color: #323232;
+}
+
+.section2 .sec1 .s2 .in-s2 img{
+    width: 48px;
+    padding-top: 10px;
+}
+
+.section2 .sec1 .s2 .in-s2 h3{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.section2 .sec1 .s2 .in-s2 p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 400;
+    padding-right: 1rem;
+    padding-bottom: 1.75rem;
+    color: #323232;
+}
+
+.in-s2{
+    width: 270px;
+    padding: 40px;
+}

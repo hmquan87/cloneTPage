@@ -4,7 +4,6 @@ import logo from '../img/logo.svg';
 import appstore from '../img/App-Store.svg';
 import chplay from '../img/Play-Store.svg';
 import { FiPhoneCall } from "react-icons/fi";
-
 import Imgnasion from './imgnasion';
 
 

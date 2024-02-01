@@ -7,7 +7,6 @@
 
 .icon {
   display: flex;
-  /* padding-left: 10px; */
   font-size: 14px;
 
 }
@@ -21,6 +20,8 @@
   height: 38px;
 }
 
+
+
 .taskbar {
     position: fixed;
     right: 305px;
@@ -31,7 +32,8 @@
     opacity: 0; 
     animation: fadeIn 0.5s ease-in-out forwards; 
     transition: transform 0.3s ease; 
-    border-radius: 1vh;
+    border-radius: 0.7vh;
+    box-shadow: 0 0 6px #d1d1d1;
   }
   
   .taskbar.visible {

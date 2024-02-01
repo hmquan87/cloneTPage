@@ -1,13 +1,11 @@
 .header {
-  position:relative !important;
+  position:relative;
   left: 0;
   margin-top: 10px;
-  width: 100%;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   height: 50px;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .header-left{
@@ -37,8 +35,13 @@
   margin-left: 10px;
   background-color: rgb(17, 0, 255);
   color:white;
-  font-weight: 500;
+  font-weight: 300;
+  font-size: 12px;
+}
 
+.header-right button:hover{
+  background-color: rgb(83, 72, 241);
+  cursor: pointer;
 }
 
 #iconreact{

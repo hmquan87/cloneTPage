@@ -1,29 +1,77 @@
 
 body{
-  position:relative !important;
+  
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 
-.full{
+.headerapp{
   position: fixed;
   top: 0;
   left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
+  width: 99.6%;
+  z-index: 1000;
+  background-color: white;
 }
 
+.full{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  height: 100%;
+  overflow-y: auto; 
+}
+
+.gr-btn{
+  position: fixed;
+  background-color: #dde6ed;
+  height: 150px; /*auto*/
+  width: 55px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  justify-content: center;
+  right: 0;
+  margin-right: 10px;
+  top: 70%;
+  flex-direction: column;
+  z-index: 1000;
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+}
+
+.gr-btn:hover{
+  height: 150px;
+  width: 200px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  /* animation: fadeIn 0.5s ease-in-out forwards;  */
+}
+
+/* @keyframes fadeIn {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+} */
 
 
 .botton{
-  height: 100%;
+  position:relative !important;
   left: 0;
+  margin-top: 60px;
 }
+
 .scrollable-container {
-    width: 100%;
-    overflow-y: auto; 
-    height: 93.6%;
+    width: 99.6%;
+    /* overflow-y: auto;  */
+    /* height: 93.6%; */
+    
+    
   }
   
 
@@ -31,22 +79,24 @@ body{
 
 
   /* Tùy chỉnh kiểu của thanh cuộn */
-  .scrollable-container::-webkit-scrollbar {
+  .full::-webkit-scrollbar {
     width: 10px;
     
   }
   
-  .scrollable-container::-webkit-scrollbar-thumb {
+  .full::-webkit-scrollbar-thumb {
     background-color: #a7a6a6;
     border-radius: 1vh;
     box-shadow: inset 0 0 0 2px #ffffff;
   }
 
-  .scrollable-container::-webkit-scrollbar-thumb:hover{
+  .full::-webkit-scrollbar-thumb:hover{
     background-color: rgba(114, 114, 114, 0.829);
 
   }
   
-  .scrollable-container::-webkit-scrollbar-track {
+  .full::-webkit-scrollbar-track {
     background-color: #ffffff;
   }
+
+
