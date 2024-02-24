@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/page1.css';
+import '../style/css/page1.css';
 import { AiOutlineDownload } from "react-icons/ai";
 import imgst1 from '../img/image-section-one.png';
 import Item1 from './item1';
@@ -35,6 +35,7 @@ const Page1 = () => {
                 <div className="bottom">                    
                     <Item1/>
                     <Section2/>
+                    
                 </div>
             </div> 
             

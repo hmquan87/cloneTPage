@@ -1,6 +1,6 @@
 // App.js
 import React from "react";
-import "../css/App.css";
+import "../style/css/App.css";
 import Page from "./page";
 import Header from "./header";
 

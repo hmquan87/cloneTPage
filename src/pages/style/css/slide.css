@@ -1,0 +1,23 @@
+.slide-item {
+    text-align: center;
+    align-items: center;
+}
+
+.slide-item-bottom {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider {
+    position: relative;
+}
+
+.slide-item-bottom img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.style-slide {
+    padding: 5px 5px;
+    text-align: center;
+}

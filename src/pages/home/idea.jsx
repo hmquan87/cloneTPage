@@ -1,6 +1,6 @@
 import React from "react";
 import { IoCheckmarkCircle } from "react-icons/io5";
-import '../css/page1.css';
+import '../style/css/page1.css';
 
 const Idea = () => {
 

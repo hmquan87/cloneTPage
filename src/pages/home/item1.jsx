@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/page1.css'
+import '../style/css/page1.css'
 import img9 from '../img/image9.png';
 import img8 from '../img/image8.png';
 import img5 from '../img/image5.png';
