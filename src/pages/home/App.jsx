@@ -5,22 +5,26 @@ import Page from "./page";
 import Header from "./header";
 
 
+
 function App() {
   return (
+
     <div>
       <div className="full">
         <div className="headerapp">
-          <Header/>
+          <Header />
           <div className="gr-btn">
-              
+
           </div>
         </div>
         <div className="botton">
           <div className="scrollable-container">
-            <Page/>            
+            <Page />
+            
           </div>
         </div>
       </div>
+
     </div>
   );
 }

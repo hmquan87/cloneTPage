@@ -1,11 +1,11 @@
 import React from 'react';
 import '../style/css/header.css';
-import logo from '../img/logo.svg';
-import appstore from '../img/App-Store.svg';
-import chplay from '../img/Play-Store.svg';
+import logo from '../style/img/logo.svg';
+import appstore from '../style/img/App-Store.svg';
+import chplay from '../style/img/Play-Store.svg';
 import { FiPhoneCall } from "react-icons/fi";
 import Imgnasion from './imgnasion';
-
+import {Link} from 'react-router-dom'
 
 
 const Header = () => {
@@ -17,7 +17,9 @@ const Header = () => {
             <div className="header-right">
                 <img id='img1' src={appstore} alt="" />
                 <img id='img1' src={chplay} alt="" />
-                <button>Trải nghiệm</button>
+                <Link to="/login">
+                    <button>Trải nghiệm</button>
+                </Link>
                 <div className="phones">
                     <FiPhoneCall  size={16} id='iconreact'/>
                     <p>Liên hệ với chúng tôi <br/>+(84) 246 329 5589</p>

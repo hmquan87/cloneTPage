@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../style/css/imgnasion.css';
-import imgcovn from '../img/covn.png';
+import imgcovn from '../style/img/covn.png';
 const Imgnasion = () => {
 
 const [isTaskbarVisible, setTaskbarVisible] = useState(false);

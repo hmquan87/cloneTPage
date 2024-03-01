@@ -1,9 +1,9 @@
 import React from "react";
 import '../style/css/page1.css'
-import img9 from '../img/image9.png';
-import img8 from '../img/image8.png';
-import img5 from '../img/image5.png';
-import img6 from '../img/image6.png';
+import img9 from '../style/img/image9.png';
+import img8 from '../style/img/image8.png';
+import img5 from '../style/img/image5.png';
+import img6 from '../style/img/image6.png';
 import { IoCheckmark } from "react-icons/io5";
 
 const Item1 = () => {

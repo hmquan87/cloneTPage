@@ -1,28 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../style/css/page1.css";
-import s1 from "../img/s1.svg";
-import s2 from "../img/s2.svg";
-import s3 from "../img/s3.svg";
-import s4 from "../img/s4.svg";
-import s5 from "../img/s5.svg";
-import appstore from "../img/App-Store.svg";
-import chplay from "../img/Play-Store.svg";
-import img4 from "../img/image4.png";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import Slider from "react-slick";
-// import avt1 from "../img/avatarfeedback1.svg";
+import s1 from "../style/img/s1.svg";
+import s2 from "../style/img/s2.svg";
+import s3 from "../style/img/s3.svg";
+import s4 from "../style/img/s4.svg";
+import s5 from "../style/img/s5.svg";
+import appstore from "../style/img/App-Store.svg";
+import chplay from "../style/img/Play-Store.svg";
+import img4 from "../style/img/image4.png";
+import imgbg10 from "../style/img/icon-bg-ten.89fbfafa.svg"
 import Slide from "./slide";
-
+import Question from "./question";
+import ContactCoponent from "../../components/ContactCoponent";
 
 const Section2 = () => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  // };
+  const sec1Ref = useRef(null);
+
+  const handleScrollToSec1 = () => {
+    sec1Ref.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <div className="section2">
@@ -117,8 +113,30 @@ const Section2 = () => {
         </div>
       </div>
       <div className="section2_2">
-        <Slide/>
+        <Slide />
       </div>
+      <div className="question-section">
+        <h1 style={{ textAlign: 'center', fontSize: "39px", fontWeight: "900", paddingTop: "100px" }}>Những câu hỏi về MYS</h1 >
+        <Question />
+        <div className="ques">
+          <div>
+            <p>Chưa thể giải đáp những thắc mắc? </p>
+          </div>
+          <div>
+            <p
+              onClick={handleScrollToSec1}
+              style={{ color: "rgb(0 123 255)" }}
+            >
+              Liên hệ với chúng tôi
+            </p>
+          </div>
+          <div><img id="img-ques" src={imgbg10} alt="" /></div>
+        </div>
+      </div>
+      <div ref={sec1Ref} className="form-contact">
+        <ContactCoponent />
+      </div>
+
     </>
   );
 };

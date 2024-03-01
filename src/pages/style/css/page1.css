@@ -4,6 +4,7 @@
 
 
 .page1 {
+    position: relative;
     background: url(../img/backgroundPage1_2.png);
     background-size: 100% 100%;
     background-position: center;
@@ -315,4 +316,18 @@
     /* max-width: 1365px; */
     margin-left: auto;
     margin-right: auto;
+}
+
+.question-section {
+    background: #f2faff;
+    padding-bottom: 124px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+#img-ques {
+    position: absolute;
+    right: 0;
+
 }
