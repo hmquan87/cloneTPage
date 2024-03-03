@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../pages/style/css/login.css";
+
+
 const SigninComponent = () => {
     // username
     const [username, setUsername] = useState('');
@@ -48,7 +50,7 @@ const SigninComponent = () => {
             setPassClickOutside(true)
     }
     // pass-again
-    const [again, setAgain] = useState('')  
+    const [again, setAgain] = useState('')
     const [againFocus, setAgainFocus] = useState(false)
     const [againClickOutside, setAgainClickOutside] = useState(false)
     const handleAgainFocus = () => {
@@ -62,11 +64,17 @@ const SigninComponent = () => {
             setAgainClickOutside(true)
     }
 
+    const ProceedLogin = (e) => {
+
+        e.preventDefault();
+    }
 
 
     return (
         <>
-            <form action="" className="login-form">
+            <form
+                onSubmit={ProceedLogin}
+                className="login-form">
                 <div className="login-form-text">
                     <div className="login-text">
                         ĐĂNG KÝ
@@ -162,7 +170,7 @@ const SigninComponent = () => {
                                 onFocus={handleAgainFocus}
                                 onBlur={() => { handleAgainBlue(); handleAgainClickOutside(); }}
                                 value={again}
-                                onChange={(e)=>{setAgain(e.target.value)}}
+                                onChange={(e) => { setAgain(e.target.value) }}
                             />
                         </div>
                         <div className={`form-item-input-error ${!again && againClickOutside ? 'show' : ''}`}>

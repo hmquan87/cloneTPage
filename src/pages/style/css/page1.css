@@ -270,7 +270,7 @@
     font-size: 3rem;
     line-height: 1;
     font-weight: 700;
-    max-width: 690px;
+    min-width: 720px;
     color: white;
     padding: 0 0 36px;
 }
@@ -308,6 +308,11 @@
     height: 560.38px;
     margin-top: 75px;
     margin-left: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#img-bg-st-r:hover {
+    transform: scale(1.1);
 }
 
 .section2_2 {
